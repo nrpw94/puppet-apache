@@ -1,8 +1,7 @@
 class apache::install {
 
-  package { 'httpd':
+  package { "${apache::install_name}":
     ensure => present,
-    provider => 'yum',
   }
 
 #  file { '/etc/httpd/conf/httpd.conf':
