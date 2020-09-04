@@ -1,0 +1,9 @@
+---
+  apache_author:
+    organization: Globomantics
+    address: 123 Farmington, Utah
+    server: apache
+    developer: Robert Watt
+    os_family:
+     1: Debian
+     2: RedHat
